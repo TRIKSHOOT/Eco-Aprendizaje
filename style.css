@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #2E856E;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+.E {
+  color: #43dca9;
+}
+
+.A {
+  color: #43dca9;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.W:hover {
+  color: #1fe01c;
+}
+
+.I:hover {
+  color: #c84799;
+}
+
+.F:hover {
+  color: #6486e3;
+}
+
+/* Contenido principal */
+.main-content {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Estilos para personalizar article-card */
+.article-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Transiciones suaves para efectos */
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  /* Efecto de levantar ligeramente al hacer hover */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.article-card h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  font-size: 20px;
+  color: #292727;
+  margin-bottom: 15px;
+}
+
+.article-card a {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #2E856E;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.article-card a:hover {
+  background-color: #247258;
+}
+
+/* Pie de página */
+footer {
+  background-color: #2E856E;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
